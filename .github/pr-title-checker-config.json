@@ -5,7 +5,7 @@
   },
   "CHECKS": {
     "prefixes": [""],
-    "regexp": "(fix|feat|dev)\\((no7(\\/bayer(\\/metabolism)?)?)\\): ",
+    "regexp": "(fix|feat|dev)\\((no7(\\/bayer(\\/metabolism)?)?)\\): (?=[A-Z])",
     "regexpFlags": "i",
     "ignoreLabels" : ["dont-check-PRs-with-this-label", "meta"]
   },
