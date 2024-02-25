@@ -4,8 +4,8 @@
     "color": "EEEEEE"
   },
   "CHECKS": {
-    "prefixes": ["fix: ", "feat: ", "dev:"],
-    "regexp": "docs\\(v[0-9]\\): ",
+    "prefixes": [],
+    "regexp": "^(fix|feat|dev)\\((bayer|aspire|cms|gatorade|ibs|metabolism|no7)(\/(bayer|aspire|cms|gatorade|ibs|metabolism|no7))*): ",
     "regexpFlags": "i",
     "ignoreLabels" : ["dont-check-PRs-with-this-label", "meta"]
   },
